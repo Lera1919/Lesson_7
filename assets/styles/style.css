@@ -237,3 +237,14 @@ header{
     margin: 0 auto;
 }
 
+.card {
+    display: flex;
+    flex-direction: column;
+    background-color: #181A1B;
+    border-radius: 8px;
+    
+}
+.block-card {
+    display: grid;
+    grid-template-columns: 1fr 35px;
+}
